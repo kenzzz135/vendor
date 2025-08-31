@@ -439,11 +439,11 @@ if (isset($_POST['scan_backdoor'])) {
         @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");body {
             font-family: 'Share Tech Mono', monospace;
             background: linear-gradient(145deg, #000000, #0a0a0a);
-            color: #0e3b2aff;
+            color: #0f0;
             padding: 20px;
         }
         h2, h3, h1 {
-            color: #0e3b2aff;
+            color: #0f0;
             text-shadow: 0 0 10px rgba(255, 0, 0, 1);
         }
         a {
@@ -458,7 +458,7 @@ if (isset($_POST['scan_backdoor'])) {
             box-shadow: 0 0 10px rgba(255, 0, 0, 1);
         }
         th, td {
-            border: 1px solid #0e3b2aff33;
+            border: 1px solid #0f033;
             padding: 8px;
             text-align: left;
         }
@@ -476,7 +476,7 @@ if (isset($_POST['scan_backdoor'])) {
         }
         button {
             padding: 6px 10px;
-            background: #0e3b2aff;
+            background: #0f0;
             color: #000;
             font-weight: bold;
             border: none;
@@ -518,7 +518,7 @@ if (isset($_POST['scan_backdoor'])) {
 <?php echo "<pre>Disable Functions: " . ini_get('disable_functions') . "</pre>"; ?>
 <div style="text-align:center; margin-bottom: 20px;">
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvlGpofT64rlRF10gjT6NTnJGPX0I3gcvAzf9wlWpl2akaj-5T7_H5q3eS5QBTMp8xPZZg7EyPBmOOpw1phYlaUgDbl-ze45HEpKmDeseQb2Kh_2qy2p3aK0rs2FiNh_InWeC3me9WdcburpypGuYIYl-hPqAw5Ivf1z706aNG2pGMdjudMb41xczaCrxT/s16000/snoopseo2.png" alt="SEO SNOOP" style="max-width:200px; border-radius:10px; box-shadow:0 0 15px #ff0000ff;">
-    <h1 style="color:#0e3b2aff; font-family:monospace; text-shadow: 0 0 10px rgba(255, 0, 0, 1);">SNOOP FILE MANAGER</h1>
+    <h1 style="color:#0f0; font-family:monospace; text-shadow: 0 0 10px rgba(255, 0, 0, 1);">SNOOP FILE MANAGER</h1>
 </div>
 <p><a href="?logout=1">Logout</a></p>
 
